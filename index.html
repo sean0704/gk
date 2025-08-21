@@ -23,6 +23,29 @@
                     <div class="card__body">
                         <form id="calculatorForm">
                             <div class="form-group">
+                                <label class="form-label" for="investmentAsset">
+                                    投資標的 (Investment Asset)
+                                </label>
+                                <select id="investmentAsset" class="form-control">
+                                    <option value="VTI" selected>VTI - Vanguard Total Stock Market ETF</option>
+                                    <option value="VT">VT - Vanguard Total World Stock ETF</option>
+                                    <option value="ACWI">ACWI - iShares MSCI ACWI ETF</option>
+                                    <option value="0050">0050 - Yuanta Taiwan Top 50 ETF</option>
+                                    <option value="BND">BND - Vanguard Total Bond Market ETF</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="inflationData">
+                                    通膨數據 (Inflation Data)
+                                </label>
+                                <select id="inflationData" class="form-control">
+                                    <option value="USA_CPI" selected>美國 CPI (US CPI)</option>
+                                    <option value="TW_CPI">台灣 CPI (Taiwan CPI)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
                                 <label class="form-label" for="initialAssets">
                                     初始資產 (Initial Assets)
                                     <span class="currency-label">台幣 TWD</span>
